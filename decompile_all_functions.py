@@ -22,7 +22,7 @@ def getFunctions():
 def decompiledFunctionsToFile(api, functionObjects):
     decomp = FlatDecompilerAPI(api)
     decomp.initialize()
-    outFile = r'C:\Users\maegan\Desktop\ghidra_scripts\decompiledFunctions.txt'
+    outFile = r'C:\Users\mount\Desktop\ghidra_scripts\decompiledFunctions.txt'
     with open(outFile, 'w') as f:
         f.write('-' * 100)
         for i, obj in enumerate(functionObjects):
